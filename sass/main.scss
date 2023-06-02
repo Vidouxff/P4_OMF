@@ -1,0 +1,35 @@
+@import 'components/_header.scss';
+@import 'components/_nav.scss';
+@import 'components/_tuto.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto|Shrikhand');
+@import 'utils/_variables.scss';
+@import 'utils/_locmixin.scss';
+@import 'utils/_tutomixin.scss';
+@import 'base/_body.scss';
+@import 'components/_localisation.scss';
+@import 'components/_restosListe.scss';
+@import 'components/_footer.scss';
+@import 'components/_loader.scss';
+@import 'pages/_pages.scss';
+@import 'layouts/header.scss';
+
+
+
+
+
+
+/* OPTIONS */
+*,
+:after,
+:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+

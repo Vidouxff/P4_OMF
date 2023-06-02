@@ -1,0 +1,16 @@
+@mixin adjustMarginLeft {
+    $initialMarginLeft: -12.51px;
+  
+    .tutoOMF__btn {
+      margin-left: $initialMarginLeft;
+  
+      @for $resolution from 340px through 1440px {
+        @media screen and (min-width: #{$resolution}) {
+          margin-left: $initialMarginLeft - 1px;
+        }
+      }
+    }
+}
+@include adjustMarginLeft;
+
+  

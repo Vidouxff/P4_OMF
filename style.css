@@ -1,0 +1,6351 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto|Shrikhand");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Shrikhand");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+.header__logoContainer {
+  display: flex;
+  width: 100%;
+  height: 63px;
+  padding-top: 14px;
+  justify-content: center;
+}
+.header__logoContainer__lien1 {
+  text-decoration: none;
+  color: black;
+}
+.header__logoContainer #header__logo {
+  height: 44px;
+  width: 162px;
+}
+
+.nav {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 39.5px;
+  padding-bottom: 57px;
+}
+.nav__titleContainer {
+  height: 68px;
+  width: auto;
+}
+.nav__titleContainer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.nav__pargContainer {
+  width: auto;
+  height: 46px;
+}
+.nav__pargContainer__parg {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.nav__btnContainer__btnLink {
+  text-decoration: none;
+  color: white;
+}
+.nav__btnContainer #nav__btnEXpRestos {
+  width: 218px;
+  border-radius: 25px;
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  border: 0px;
+  padding: 13px 18.75px 13px 18.75px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 27px;
+}
+.nav__btnContainer #nav__btnEXpRestos:hover {
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.tutoOMF {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  margin-left: 20px;
+  padding-bottom: 68px;
+}
+@media screen and (min-width: 1150px) {
+  .tutoOMF {
+    padding-bottom: 50px;
+  }
+}
+.tutoOMF__titleCtner {
+  margin-left: 20px;
+}
+@media screen and (min-width: 1150px) {
+  .tutoOMF__titleCtner {
+    margin-left: 12%;
+    padding-top: 30px;
+  }
+}
+.tutoOMF__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.tutoOMF__fonctionnement {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1150px) {
+  .tutoOMF__fonctionnement {
+    display: flex;
+    flex-direction: row;
+    width: 1029px;
+    justify-content: space-evenly;
+    padding-left: 11.5%;
+  }
+}
+.tutoOMF__choisisez, .tutoOMF__composez, .tutoOMF__degustez {
+  display: flex;
+  flex-direction: row;
+  height: 72.3792037964px;
+  width: 90%;
+  background: rgb(246, 246, 246);
+  border-radius: 20px;
+  margin-top: 26px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 4.5%;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 1150px) {
+  .tutoOMF__choisisez, .tutoOMF__composez, .tutoOMF__degustez {
+    width: 30%;
+    margin-left: 0px;
+  }
+}
+.tutoOMF__btn {
+  color: white;
+  width: 24px;
+  height: 24px;
+  background: #9356DC;
+  border-radius: 25px;
+  border: 0px;
+  position: relative;
+}
+
+.tutoOMF__icon {
+  color: rgb(126, 126, 126);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 375px) {
+  .tutoOMF__icon {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+}
+.tutoOMF__icon:hover {
+  color: rgb(147, 86, 220);
+}
+
+.tutoOMF__text {
+  height: 15.6697244644px;
+  width: 211px;
+}
+
+/* WIDTH min ET WIDTH MAX */
+/* $shrikhand-font: 'Shrikhand', cursive; */
+/* $font-family: "Roboto", sans-serif; */
+/* $color-stack: 'black'; */
+/* COULEURS TEXTES  */
+/* Vous utiliserez ce dossier pour les éléments réutilisables et plus petits que les layouts comme les boutons, les inputs, les icônes… */
+.localisation__ctner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: rgb(234, 234, 234);
+  padding-left: 1%;
+}
+@media screen and (min-width: 440px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 560px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 660px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 760px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 860px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .localisation__ctner {
+    padding-left: 1%;
+  }
+}
+
+.tutoOMF__btn {
+  margin-left: -12.51px;
+}
+@media screen and (min-width: 340px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 341px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 342px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 343px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 344px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 345px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 346px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 347px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 348px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 349px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 350px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 351px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 352px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 353px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 354px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 355px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 356px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 357px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 358px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 359px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 360px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 361px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 362px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 363px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 364px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 365px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 366px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 367px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 368px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 369px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 370px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 371px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 372px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 373px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 374px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 375px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 376px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 377px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 378px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 379px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 380px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 381px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 382px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 383px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 384px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 385px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 386px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 387px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 388px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 389px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 390px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 391px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 392px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 393px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 394px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 395px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 396px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 397px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 398px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 399px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 402px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 403px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 404px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 405px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 406px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 407px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 408px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 409px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 410px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 411px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 412px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 413px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 414px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 415px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 416px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 417px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 418px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 419px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 420px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 421px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 422px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 423px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 424px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 426px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 427px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 428px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 429px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 430px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 431px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 432px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 433px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 434px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 435px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 436px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 437px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 438px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 439px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 440px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 441px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 442px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 443px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 444px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 445px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 446px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 447px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 448px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 449px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 450px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 451px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 452px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 453px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 454px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 455px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 456px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 457px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 458px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 459px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 460px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 461px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 462px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 463px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 464px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 465px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 466px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 467px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 468px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 469px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 470px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 471px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 472px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 473px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 474px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 475px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 476px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 477px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 478px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 479px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 482px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 483px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 484px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 485px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 486px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 487px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 488px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 489px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 490px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 491px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 492px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 493px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 494px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 495px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 496px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 497px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 498px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 499px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 501px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 502px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 503px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 504px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 505px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 506px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 507px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 508px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 509px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 510px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 511px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 512px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 513px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 514px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 515px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 516px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 517px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 518px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 519px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 520px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 521px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 522px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 523px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 524px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 525px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 526px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 527px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 528px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 529px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 530px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 531px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 532px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 533px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 534px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 535px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 536px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 537px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 538px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 539px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 540px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 542px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 543px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 544px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 545px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 546px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 547px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 548px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 549px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 551px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 552px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 553px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 554px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 555px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 556px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 557px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 558px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 559px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 560px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 561px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 562px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 563px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 564px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 565px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 566px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 567px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 569px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 571px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 572px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 573px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 574px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 575px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 577px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 578px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 579px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 580px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 581px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 582px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 583px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 584px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 585px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 586px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 587px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 588px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 589px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 590px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 591px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 592px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 593px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 594px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 595px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 596px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 597px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 598px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 599px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 602px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 603px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 604px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 605px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 606px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 607px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 608px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 609px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 610px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 611px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 612px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 613px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 614px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 615px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 616px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 617px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 618px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 619px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 621px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 622px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 623px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 624px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 625px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 626px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 627px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 628px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 629px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 630px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 631px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 632px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 633px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 634px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 635px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 636px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 637px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 638px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 639px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 641px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 642px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 643px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 644px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 645px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 646px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 647px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 648px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 649px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 651px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 652px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 653px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 654px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 655px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 656px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 657px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 658px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 659px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 660px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 661px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 662px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 663px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 664px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 665px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 666px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 667px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 668px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 669px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 670px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 671px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 672px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 673px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 674px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 675px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 676px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 677px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 678px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 679px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 681px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 682px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 683px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 684px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 685px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 686px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 687px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 688px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 689px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 690px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 691px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 692px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 693px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 694px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 695px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 696px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 697px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 698px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 699px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 700px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 701px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 702px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 703px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 704px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 705px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 706px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 707px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 708px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 709px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 711px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 712px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 713px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 714px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 715px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 716px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 717px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 718px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 719px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 720px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 721px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 722px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 723px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 724px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 725px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 726px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 727px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 728px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 729px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 730px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 731px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 732px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 733px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 734px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 735px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 736px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 737px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 738px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 739px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 740px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 741px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 742px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 743px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 744px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 745px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 746px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 747px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 748px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 749px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 750px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 751px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 752px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 753px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 754px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 755px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 756px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 757px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 758px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 759px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 760px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 761px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 762px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 763px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 764px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 765px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 766px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 771px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 772px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 773px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 774px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 775px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 776px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 777px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 778px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 779px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 781px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 782px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 783px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 784px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 785px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 786px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 787px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 788px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 789px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 790px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 791px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 792px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 793px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 794px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 795px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 796px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 797px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 798px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 799px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 802px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 803px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 804px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 805px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 806px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 807px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 808px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 809px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 810px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 811px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 812px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 813px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 814px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 815px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 816px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 817px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 818px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 819px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 820px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 821px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 822px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 823px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 824px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 825px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 826px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 827px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 828px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 829px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 830px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 831px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 832px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 833px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 834px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 835px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 836px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 837px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 838px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 839px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 840px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 841px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 842px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 843px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 844px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 845px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 846px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 847px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 848px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 849px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 851px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 852px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 853px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 854px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 855px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 856px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 857px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 858px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 859px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 860px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 861px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 862px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 863px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 864px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 865px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 866px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 867px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 868px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 869px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 870px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 871px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 872px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 873px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 874px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 875px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 876px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 877px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 878px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 879px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 880px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 881px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 882px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 883px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 884px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 885px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 886px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 887px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 888px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 889px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 890px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 891px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 892px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 893px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 894px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 895px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 896px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 897px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 898px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 899px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 901px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 902px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 903px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 904px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 905px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 906px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 907px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 908px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 909px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 910px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 911px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 912px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 913px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 914px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 915px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 916px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 917px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 918px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 919px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 920px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 921px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 922px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 923px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 924px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 925px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 926px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 927px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 928px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 929px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 930px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 931px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 932px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 933px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 934px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 935px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 936px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 937px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 938px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 939px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 940px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 941px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 942px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 943px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 944px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 945px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 946px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 947px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 948px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 949px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 950px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 951px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 952px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 953px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 954px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 955px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 956px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 957px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 958px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 959px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 961px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 962px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 963px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 964px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 965px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 966px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 967px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 968px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 969px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 970px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 971px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 972px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 973px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 974px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 975px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 976px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 977px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 978px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 979px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 981px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 982px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 983px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 984px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 985px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 986px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 987px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 988px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 989px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 990px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 993px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 994px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 995px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 996px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 997px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 999px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1002px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1003px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1004px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1005px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1006px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1007px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1008px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1009px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1010px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1011px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1012px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1013px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1014px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1015px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1016px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1017px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1018px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1019px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1021px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1022px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1026px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1027px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1028px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1029px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1030px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1031px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1032px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1033px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1034px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1035px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1036px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1037px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1038px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1039px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1040px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1041px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1042px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1043px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1044px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1045px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1046px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1047px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1048px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1049px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1051px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1052px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1053px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1054px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1055px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1056px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1057px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1058px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1059px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1060px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1061px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1062px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1063px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1064px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1065px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1066px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1067px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1068px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1069px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1070px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1071px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1072px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1073px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1074px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1075px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1076px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1077px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1078px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1079px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1081px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1082px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1083px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1084px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1085px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1086px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1087px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1088px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1089px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1090px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1091px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1092px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1093px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1094px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1095px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1096px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1097px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1098px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1099px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1101px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1102px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1103px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1104px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1105px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1106px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1107px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1108px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1109px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1111px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1112px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1113px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1114px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1115px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1116px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1117px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1118px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1119px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1121px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1122px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1123px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1124px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1125px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1126px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1127px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1128px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1129px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1130px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1131px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1132px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1133px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1134px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1135px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1136px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1137px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1138px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1139px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1141px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1142px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1143px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1144px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1145px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1146px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1147px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1148px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1149px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1151px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1152px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1153px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1154px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1155px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1156px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1157px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1159px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1160px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1161px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1162px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1163px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1164px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1165px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1166px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1167px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1168px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1169px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1171px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1172px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1173px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1174px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1175px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1176px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1177px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1178px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1179px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1181px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1182px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1183px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1184px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1185px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1186px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1187px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1188px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1189px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1190px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1191px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1192px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1193px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1194px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1195px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1196px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1197px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1198px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1202px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1203px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1204px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1205px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1206px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1207px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1208px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1209px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1210px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1211px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1212px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1213px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1214px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1215px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1216px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1217px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1218px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1219px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1220px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1221px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1222px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1223px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1224px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1225px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1226px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1227px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1228px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1229px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1230px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1231px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1232px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1233px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1234px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1235px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1236px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1237px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1238px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1239px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1241px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1242px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1243px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1244px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1245px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1246px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1247px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1248px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1249px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1251px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1252px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1253px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1254px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1255px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1256px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1257px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1258px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1259px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1261px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1262px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1263px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1264px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1265px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1266px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1267px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1268px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1269px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1270px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1271px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1272px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1273px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1274px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1275px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1276px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1277px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1278px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1279px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1281px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1282px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1283px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1284px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1285px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1286px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1287px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1288px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1289px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1290px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1291px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1292px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1293px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1294px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1295px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1296px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1297px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1298px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1299px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1301px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1302px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1303px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1304px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1305px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1306px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1307px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1308px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1309px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1310px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1311px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1312px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1313px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1314px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1315px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1316px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1317px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1318px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1319px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1320px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1321px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1322px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1323px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1324px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1325px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1326px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1327px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1328px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1329px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1330px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1331px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1333px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1334px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1335px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1337px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1338px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1339px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1340px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1341px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1342px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1343px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1344px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1345px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1346px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1347px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1348px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1349px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1351px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1352px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1353px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1354px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1355px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1356px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1357px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1358px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1359px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1361px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1362px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1363px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1364px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1365px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1367px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1368px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1369px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1370px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1371px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1372px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1373px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1374px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1375px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1376px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1377px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1378px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1379px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1380px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1381px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1382px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1383px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1384px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1385px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1386px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1387px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1388px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1389px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1390px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1391px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1392px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1393px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1394px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1395px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1396px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1397px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1398px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1399px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1401px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1402px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1403px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1404px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1405px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1406px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1407px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1408px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1409px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1410px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1411px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1412px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1413px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1414px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1415px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1416px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1417px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1418px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1419px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1420px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1421px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1422px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1423px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1424px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1425px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1426px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1427px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1428px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1429px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1430px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1431px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1432px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1433px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1434px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1435px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1436px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1437px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1438px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1439px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .tutoOMF__btn {
+    margin-left: -13.51px;
+  }
+}
+
+/* C'est ici que l'on va mettre les fichiers .scss qui servent de base (comme son nom l'indique) à l'ensemble
+  du style du texte. On peut y trouver un fichier _normalize.scss pour le style par défaut des éléments HTML ou
+  encore un fichier pour la typo. de notre application web avec les fonts utilisées. */
+/* BODY */
+body {
+  font-family: roboto;
+}
+
+.localisation__iconCtner {
+  margin-left: -17px;
+  padding-right: 17px;
+}
+.localisation__icon {
+  color: rgb(53, 53, 53);
+  width: 12px;
+  height: 16px;
+}
+.localisation__lieux {
+  color: #353535;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.restaurants {
+  background: rgb(246, 246, 246);
+  height: auto;
+  width: 100%;
+  padding-bottom: 66px;
+}
+.restaurants__container {
+  background: rgb(246, 246, 246);
+}
+.restaurants__titleCtner {
+  padding-top: 54px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__titleCtner {
+    padding-bottom: 28px;
+  }
+}
+.restaurants__title {
+  margin-left: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__title {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .restaurants__title {
+    margin-left: 180px;
+  }
+}
+.restaurants__List {
+  margin-left: 17px;
+  margin-right: 17px;
+  padding-bottom: 66px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__List {
+    margin: 0px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 490px);
+    row-gap: 50px;
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .restaurants__List {
+    margin-left: 180px;
+  }
+}
+.restaurants__item {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 50px;
+  }
+}
+.restaurants__card {
+  height: 251px;
+  width: 100%;
+  border-radius: 15px;
+  background: white;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 13px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants__card {
+    height: 251px;
+    width: 490px;
+    margin-top: 0px;
+  }
+}
+.restaurants__img {
+  width: 100%;
+  height: 174px;
+  border-radius: 15px 15px 0px 0px;
+  /*     @media screen and (min-width:1024px) {
+        height: 383px;
+      } */
+}
+.restaurants__cardDetails {
+  display: flex;
+  justify-content: space-evenly;
+}
+.restaurants__cardTitle {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.restaurants__cardText {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .restaurants {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .restaurants .card-r {
+    margin-right: 91.35px;
+  }
+}
+.restaurants__fa-heart {
+  font-size: 25px;
+  display: flex;
+}
+.restaurants__fa-heart:hover {
+  display: none;
+}
+.restaurants__fa-heart:hover .carte__fa-heart2 {
+  display: flow-root;
+}
+.restaurants__fa-heart2 {
+  display: contents;
+  font-size: 28px;
+  position: relative;
+  left: -30.5px;
+  background: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.restaurants__fa-heart2:hover {
+  background: -webkit-linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer__cntctCtner {
+    display: flex;
+  }
+}
+.footer__logoTxtCtner {
+  margin-bottom: 9px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__logoTxtCtner {
+    margin-bottom: 0px;
+  }
+}
+.footer__logoTxt {
+  font-family: Shrikhand;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 27px;
+  width: 137.5816345215px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__logosTextCtner {
+    display: flex;
+  }
+}
+.footer__socialCtner {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .footer__socialCtner {
+    flex-direction: row;
+  }
+}
+.footer__logoTextBloc {
+  display: flex;
+  margin-right: 7px;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .footer__logoTextBloc {
+    flex-direction: row;
+  }
+}
+.footer__text-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.footer__logo .fa-utensils,
+.footer__logo .fa-handshake-angle {
+  color: white;
+}
+.footer__logo .fa-utensils {
+  height: 13px;
+  width: 11px;
+  margin-right: 11px;
+}
+.footer__logo .fa-handshake-angle {
+  height: 12.9999990463px;
+  width: 11.9176959991px;
+  margin-right: 10.08px;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .footer__text {
+    flex-direction: row;
+  }
+}
+.footer__paragmc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 7px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__paragmc {
+    margin-top: 0px;
+    width: 130px;
+  }
+}
+.footer__paragCtner .footer__parag {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 7px;
+}
+@media screen and (min-width: 1024px) {
+  .footer__paragCtner .footer__parag {
+    margin-top: 0px;
+    width: 168px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer__paragCtner {
+    width: 168px;
+  }
+}
+.footer__paragLink {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(246, 246, 246);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: loaderAnimation 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.loader-content {
+  text-align: center;
+}
+
+.loader-content h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.loader-content p {
+  font-size: 16px;
+  color: black;
+}
+
+.headerp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 96.3390197754px;
+  width: 100%;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+}
+.headerp__logoContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media screen and (min-width: 1440px) {
+  .headerp__logoContainer {
+    justify-content: flex-start;
+    padding-left: calc((100% - 1440px) / 2);
+  }
+}
+.headerp__logoContainer .headerp__logo {
+  margin: 0 auto;
+}
+.headerp__arrowCtner {
+  margin-left: 23px;
+}
+@media screen and (min-width: 1440px) {
+  .headerp__arrowCtner {
+    margin-right: calc((100% - 1440px) / 2 + 578.8px);
+  }
+}
+.headerp__lien1 {
+  text-decoration: none;
+  color: black;
+}
+.headerp #headerp__logo {
+  height: 34.202205658px;
+  width: 200px;
+}
+
+/* main{
+background-color: lightgrey;
+} */
+.carte__imgCtner, .carte__textCtner {
+  height: auto;
+  width: auto;
+}
+.carte__textlogoFlex {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 50px;
+  background: rgb(246, 246, 246);
+  padding-left: 17px;
+  padding-top: 32px;
+  border-radius: 25px 25px 0px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.carte__img {
+  height: 275px;
+  width: 100%;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .carte__img {
+    height: 383px;
+  }
+}
+.carte__textCtner {
+  background: rgb(246, 246, 246);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  .carte__textCtner {
+    width: 73%;
+    margin-left: 193px;
+  }
+}
+.carte__title {
+  font-family: Shrikhand;
+  font-size: 23px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+}
+@media screen and (min-width: 375px) {
+  .carte__title {
+    font-size: 28px;
+  }
+}
+.carte__fa-heartCtner {
+  display: inline-block;
+  position: relative;
+  margin-left: 22px;
+}
+.carte__fa-heart {
+  font-size: 25px;
+  display: flex;
+}
+.carte__fa-heart:hover {
+  display: none;
+}
+.carte__fa-heart:hover .carte__fa-heart2 {
+  display: flow-root;
+}
+.carte__fa-heart2 {
+  display: contents;
+  font-size: 28px;
+  position: relative;
+  left: -30.5px;
+  background: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.carte__fa-heart2:hover {
+  background: -webkit-linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.carte__commanderBtn {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  color: white;
+  border: 0px;
+  height: 50px;
+  width: 186px;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 40px;
+  position: relative;
+  align-self: center;
+}
+.carte__commanderBtn:hover {
+  background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%), linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+}
+
+.menu {
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 1024px) {
+  .menu {
+    width: 634px;
+    align-self: center;
+  }
+}
+.menu__entrees, .menu__desserts, .menu__plats {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.menu__plats, .menu__desserts {
+  margin-top: 40px;
+}
+.menu__bborder {
+  margin-bottom: 12px;
+  width: 40px;
+  border-bottom: 3px solid rgb(153, 226, 208);
+}
+.menu .item {
+  height: 80px;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  animation: opacity 2000ms 3500ms linear both;
+}
+.menu .item__name {
+  width: 70%;
+  padding: 0px 5%;
+  transform-origin: left;
+}
+.menu .item__specialite {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.menu .item__accompagnt {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15.0431px;
+  line-height: 18px;
+}
+.menu .item__priceCtner {
+  width: 10%;
+  padding: 0px 5%;
+  text-align: center;
+}
+.menu .item__price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15.0431px;
+  line-height: 18px;
+  color: #353535;
+}
+.menu .item__logowrap, .menu .item__logo, .menu .item__checkcircle {
+  display: none;
+}
+.menu .item__logowrap {
+  font-size: 24px;
+  justify-content: space-around;
+  position: relative;
+  top: 26px;
+  left: 20px;
+}
+.menu .item__logo {
+  width: 80px;
+  height: 100%;
+  background-color: #99E2D0;
+  border-radius: 0px 15.04px 15.04px 0px;
+}
+.menu .item__checkcircle {
+  color: #ffffff;
+  transition: transform 0.3s ease;
+  transform: rotate(360deg);
+}
+.menu .item:hover .item__logowrap,
+.menu .item:hover .item__logo,
+.menu .item:hover .item__checkcircle {
+  display: flex;
+}
+
+.headerFlex {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.header__arrowCtner__arrow {
+  background: rgb(53, 53, 53);
+  height: 16px;
+  width: 17.197555542px;
+}
+
+/* OPTIONS */
+*,
+:after,
+:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

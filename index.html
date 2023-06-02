@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ohmyfood</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+    <body>
+      <header class="header">
+          <div class="header__logoContainer">
+            <a href="index.html" class="header__lien1">
+              <img id="header__logo" src="./assets/images/logo/ohmyfood.png" alt="logo">
+            </a>
+          </div>
+      </header>
+      <main>
+        <div class="loader">
+          <div class="loader-content">
+            <h3>Chargement en cours...</h3>
+            <p>Veuillez patienter.</p>
+          </div>
+        </div>
+        <div class="localisation__ctner">
+          <div class="localisation__iconCtner">
+            <i class="localisation__icon fa-solid fa-location-dot"></i>
+          </div>
+          <div class="localisation__lieuxCtner">
+            <h3 class="localisation__lieux">Paris, Belleville</h3>
+          </div>
+        </div>
+        <nav class="nav">
+          <div class="nav__titleContainer">
+            <h2 class="nav__title">Réservez le menu qui vous convient</h2>
+          </div>
+          <div class="nav__pargContainer">
+            <p class="nav__parg">Découvrez des restaurants d’exception, sélectionnés par nos soins.</p>
+          </div>
+          <div class="nav__btnContainer">
+            <a href="#restaurants"  class="nav__btnLink">
+              <button id="nav__btnEXpRestos">Explorer nos restaurants</button>
+            </a> 
+          </div>
+        </nav>
+        <section class="tutoOMF">
+          <div class="tutoOMF__titleCtner">
+            <h3 class="tutoOMF__title">Fonctionnement</h3>
+          </div>
+          <div class="tutoOMF__fonctionnement">
+              <div class="tutoOMF__choisisez">
+                <div class="tutoOMF__btnContainer">
+                  <button class="tutoOMF__btn">1</button> 
+                </div>
+                <div class="tutoOMF__iconContainer">
+                  <i class=" tutoOMF__icon fa-solid fa-mobile-screen"></i>
+                </div>
+                <div class="tutoOMF__textContainer">
+                  <h4 class="tutoOMF__text">Choisissez un restaurant</h4> 
+                </div>
+              </div>
+              <div class="tutoOMF__composez">
+                <div class="tutoOMF__btnContainer">
+                  <button class="tutoOMF__btn">2</button> 
+                </div>
+                <div class="tutoOMF__iconContainer">
+                  <i class=" tutoOMF__icon fa-solid fa-list-ul"></i>
+                  </div>
+                  <div class="tutoOMF__textContainer">
+                    <h4 class="tutoOMF__text">Composez votre menu</h4> 
+                  </div>
+              </div>
+              <div class="tutoOMF__degustez">
+                <div class="tutoOMF__btnContainer">
+                  <button class="tutoOMF__btn">3</button> 
+                  </div>
+                  <div class="tutoOMF__iconContainer">
+                    <i class=" tutoOMF__icon fa-solid fa-store"></i>
+                  </div>
+                  <div class="tutoOMF__textContainer">
+                    <h4 class="tutoOMF__text">Dégustez au restaurant</h4>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <section class="restaurants__container">
+          <div class="restaurants__titleCtner">
+            <h2 class="restaurants__title" id="restaurants">Nos restaurants</h2>
+          </div>
+          <div class="restaurants__List">
+            <div class="restaurants__item">
+              <div class="restaurants__card card-r">
+                <a href="page2.html">
+                  <div class="restaurants__imgCtner">
+                    <img class="restaurants__img" src="./assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût">
+                  </div>
+                  <div class="restaurants__cardDetails">
+                    <div class="restaurants__cardText">
+                      <h3 class="restaurants__cardTitle">La palette du goût</h3>
+                      <p class="restaurants__cardParg">Ménilmontant</p>
+                    </div>
+                    <div class="restaurants__cardFavoris">
+                      <i class="fa-regular fa-heart restaurants__fa-heart"></i>
+                      <i class="fa-solid fa-heart restaurants__fa-heart2"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="restaurants__card">
+                <a href="page3.html">
+                  <div class="restaurants__cardImg">
+                    <img class="restaurants__img" src="./assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La palette du goût">
+                  </div>
+                  <div class="restaurants__cardDetails">
+                    <div class="restaurants__cardText">
+                      <h3 class="restaurants__cardTitle">La note enchantée</h3>
+                      <p class="restaurants__cardText">Charonne</p>
+                    </div>
+                    <div class="restaurants__cardFavoris">
+                      <i class="fa-regular fa-heart restaurants__fa-heart"></i>
+                      <i class="fa-solid fa-heart restaurants__fa-heart2"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="restaurants__item">
+              <div class="restaurants__card card-r">
+                <a href="page4.html">
+                  <div class="restaurants__cardImg">
+                    <img class="restaurants__img" src="./assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="La palette du goût">
+                  </div>
+                  <div class="restaurants__cardDetails">
+                    <div class="restaurants__cardText">
+                      <h3 class="restaurants__cardTitle">À la française</h3>
+                      <p class="restaurants__cardText">Cité Rouge</p>
+                    </div>
+                    <div class="restaurants__cardFavoris">
+                      <i class="fa-regular fa-heart restaurants__fa-heart"></i>
+                      <i class="fa-solid fa-heart restaurants__fa-heart2"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="restaurants__card">
+                <a href="page5.html">
+                  <div class="restaurants__cardImg">
+                    <img class="restaurants__img" src="./assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="La palette du goût">
+                  </div>
+                  <div class="restaurants__cardDetails">
+                    <div class="restaurants__cardText">
+                      <h3 class="restaurants__cardTitle">Le délice des sens</h3>
+                      <p class="restaurants__cardText">Folie-Méricourt</p>
+                    </div>
+                    <div class="restaurants__cardFavoris">
+                      <i class="fa-regular fa-heart restaurants__fa-heart"></i>
+                      <i class="fa-solid fa-heart restaurants__fa-heart2"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+              <div class="footer__logoTxtCtner">
+                <h2 class="footer__logoTxt">ohmyfood</h2>
+              </div>
+              <div class="footer__socialCtner">
+                <div class="footer__logoTextBloc">
+                  <div class="footer__text-logo">
+                    <div class="footer__logo">
+                      <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div class="footer__paragCtner">
+                      <p class="footer__parag">Proposer un restaurant</p>
+                    </div>
+                  </div>
+                  <div class="footer__text-logo">
+                    <div class="footer__logo">
+                      <i class="fa-solid fa-handshake-angle"></i>
+                    </div>
+                    <div>
+                      <p class="footer__parag">Devenir partenaire</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer__text">
+                  <div>
+                    <p class="footer__paragmc">Mentions légales</p>
+                  </div>
+                  <div>
+                    <a class="footer__paragLink" href="mailto:votreadresse@mail.fr">
+                      <p class="footer__paragmc">Contact</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </footer>
+      </main>
+    </body>
+</html>

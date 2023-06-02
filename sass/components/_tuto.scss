@@ -1,0 +1,85 @@
+.tutoOMF {
+  display: flex;
+  flex-direction: column;
+  padding-top: 48px;
+  margin-left: 20px;
+  padding-bottom: 68px;
+  @media screen and (min-width:1150px) {
+    padding-bottom: 50px;
+  }
+  &__titleCtner {
+      margin-left: 20px;
+      @media screen and (min-width:1150px) {
+        margin-left: 12%;
+        padding-top: 30px;
+      }
+    }
+  &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+    }
+  &__fonctionnement {
+      display: flex;
+      flex-direction: column;
+      @media screen and (min-width:1150px) {
+        display: flex;
+        flex-direction: row;
+        width: 1029px;
+        justify-content: space-evenly;
+        padding-left: 11.5%;
+      }
+    }
+  &__choisisez,
+  &__composez, 
+  &__degustez {
+    display: flex;
+    flex-direction: row;
+    height: 72.3792037964px;
+    width: 90%;
+    background: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin-top: 26px;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 4.5%;
+    justify-content: flex-start;
+
+    align-items: center;
+    @media screen and (min-width:1150px) {
+      width: 30%;
+      margin-left: 0px;
+    }
+  }
+  &__btn {
+      color: white;
+      width: 24px;
+      height: 24px;
+      background: #9356DC;
+      border-radius: 25px;
+      border: 0px;
+      position: relative;
+ }
+}
+
+.tutoOMF__icon {
+  color: rgba(126, 126, 126, 1);
+  padding-left: 10px;
+  padding-right: 10px;
+
+  @media screen and (min-width:375px) {
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+
+  &:hover {
+    color: rgba(147, 86, 220, 1);
+  }
+}
+
+.tutoOMF__text {
+  height: 15.669724464416504px;
+  width: 211px;
+}
+  
+  

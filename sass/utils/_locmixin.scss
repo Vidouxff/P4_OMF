@@ -1,0 +1,44 @@
+@mixin localisation($padding-value1, $padding-value2, $padding-value3, $padding-value4, $padding-value5, $padding-value6, $padding-value7, $padding-value8, $padding-value9, $padding-value10, $padding-value11) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: rgba(234, 234, 234, 1);
+  padding-left: $padding-value1;
+  
+  @media screen and (min-width: 440px) {
+    padding-left: $padding-value2;
+  }
+  @media screen and (min-width: 560px) {
+    padding-left: $padding-value3;
+  }
+  @media screen and (min-width: 660px) {
+    padding-left: $padding-value4;
+  }
+  @media screen and (min-width: 760px) {
+    padding-left: $padding-value5;
+  }
+  @media screen and (min-width: 860px) {
+    padding-left: $padding-value6;
+  }
+  @media screen and (min-width: 960px) {
+    padding-left: $padding-value7;
+  }
+  @media screen and (min-width: 1060px) {
+    padding-left: $padding-value8;
+  }
+  @media screen and (min-width: 1160px) {
+    padding-left: $padding-value9;
+  }
+  @media screen and (min-width: 1260px) {
+    padding-left: $padding-value10;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-left: $padding-value11;
+  }
+}
+
+.localisation__ctner {
+  @include localisation(1%, 1%, 1%, 1%, 1%, 1%, 1%, 1%, 1%, 1%, 1%);
+}

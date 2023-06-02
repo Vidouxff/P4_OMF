@@ -1,0 +1,131 @@
+.footer {
+  background: rgba(53, 53, 53, 1);
+  color: white;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+    @media screen and (min-width: 1024px) {
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: end;
+    }
+  }
+  @media screen and (min-width:1024px) {
+    &__cntctCtner{
+      display: flex;
+    }
+  }
+  &__logoTxtCtner {
+      margin-bottom: 9px;
+
+      @media screen and (min-width: 1024px) {
+        margin-bottom: 0px;
+      }
+  }
+  &__logoTxt {
+    font-family: Shrikhand;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 27px;
+    width: 137.58163452148438px;
+  }
+  @media screen and (min-width:1024px) {
+    &__logosTextCtner {
+      display: flex;
+    }
+  }
+  &__socialCtner {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width:1024px) {
+      flex-direction: row;
+    }
+  }
+  &__logoTextBloc {
+    display: flex;
+    margin-right: 7px;
+    flex-direction: column;
+
+    @media screen and (min-width:1024px) {
+      flex-direction: row;
+    }
+  }
+  &__text-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  &__logo {
+    .fa-utensils,
+    .fa-handshake-angle {
+      color: white;
+    }
+    .fa-utensils {
+      height: 13px;
+      width: 11px;
+      margin-right: 11px;
+    }
+    .fa-handshake-angle {
+      height: 12.999999046325684px;
+      width: 11.917695999145508px;
+      margin-right: 10.08px;
+    }
+  }
+  &__text{
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width:1024px) {
+      flex-direction: row;
+    }
+  }
+  &__paragmc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 7px;
+
+    @media screen and (min-width:1024px) {
+      margin-top: 0px;
+      width: 130px;
+    }
+  }
+  &__paragCtner {
+    .footer__parag {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-top: 7px;
+
+      @media screen and (min-width:1024px) {
+        margin-top: 0px;
+        width: 168px;
+      }
+    }
+    @media screen and (min-width:1024px) {
+      width: 168px;
+    }
+  }
+  &__paragLink{
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+}
+
+  

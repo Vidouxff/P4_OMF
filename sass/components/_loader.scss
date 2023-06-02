@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(246, 246, 246);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: loaderAnimation 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+// Styles pour le contenu du loader
+.loader-content {
+  text-align: center;
+}
+
+.loader-content h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+.loader-content p {
+  font-size: 16px;
+  color: black;
+}
+
+
+  
