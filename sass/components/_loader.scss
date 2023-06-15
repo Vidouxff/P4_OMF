@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
+$loader-size: 80px;
 
 .loader {
   position: fixed;
@@ -14,10 +9,64 @@ body {
   background-color: rgb(246, 246, 246);
   z-index: 9999;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation: loaderAnimation 1s ease-in-out forwards;
-  animation-delay: 1s;
+  animation: loaderAnimation 0.5s ease-in-out forwards;
+  animation-delay: 0.9s;
+
+  .loader-content {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+    h3 {
+      font-size: 24px;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      color: black;
+    }
+  }
+
+  .loader-spinner {
+    display: inline-block;
+    position: relative;
+    width: $loader-size;
+    height: $loader-size;
+
+    div {
+      position: absolute;
+      top: 33px;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+      animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    }
+
+    div:nth-child(1) {
+      left: 8px;
+      animation: lds-ellipsis1 0.6s infinite;
+    }
+
+    div:nth-child(2) {
+      left: 8px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+
+    div:nth-child(3) {
+      left: 32px;
+      animation: lds-ellipsis2 0.6s infinite;
+    }
+
+    div:nth-child(4) {
+      left: 56px;
+      animation: lds-ellipsis3 0.6s infinite;
+    }
+  }
 }
 
 @keyframes loaderAnimation {
@@ -30,22 +79,29 @@ body {
   }
 }
 
-// Styles pour le contenu du loader
-.loader-content {
-  text-align: center;
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.loader-content h3 {
-  font-size: 24px;
-  color: black;
-  margin-bottom: 10px;
-
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
 }
 
-.loader-content p {
-  font-size: 16px;
-  color: black;
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
 }
-
-
-  
