@@ -300,15 +300,11 @@
       margin: 26px 26px 0px 55px;
 
   }
-
-
-  $menu-item-delay: 0.2s; // temps entre chaque menu__item
-  
   &__List {
 display: flex;
 flex-wrap: wrap;
 }
-
+$menu-item-delay: 0.2s; // temps entre chaque menu__item
   &__item {
   opacity: 0;
   animation: menu-item-appear 0.5s ease-in-out forwards;
