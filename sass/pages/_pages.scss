@@ -304,10 +304,10 @@
 display: flex;
 flex-wrap: wrap;
 }
-$menu-item-delay: 0.5s; // temps entre chaque menu__item
+$menu-item-delay: 0.2s; // temps entre chaque menu__item
   &__item {
   opacity: 0;
-  animation: menu-item-appear 0.5s ease-in-out forwards;
+  animation: menu-item-appear 0.8s ease-in-out forwards;
   }
 
   @keyframes menu-item-appear {
