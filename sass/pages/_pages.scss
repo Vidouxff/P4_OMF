@@ -106,7 +106,7 @@
       background-clip: text;
       -webkit-text-fill-color: transparent;
       background-image: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-      transition: all 5ms ease-in-out; /* Changement de 680ms à 5ms */
+      transition: all 850ms ease-in-out; /* Changement de 680ms à 5ms */
       transform: scale(10%);
     }
     
@@ -126,8 +126,7 @@
     &:hover .far {
       transform: scale(10%);
     }
-  }
-  
+  }  
   &__commanderBtn{
     color: white;
     border: 0px;
