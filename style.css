@@ -102,11 +102,6 @@
     padding-top: 30px;
   }
 }
-@media screen and (min-width: 1450px) {
-  .tutoOMF__titleCtner {
-    margin-left: 35%;
-  }
-}
 .tutoOMF__title {
   font-style: normal;
   font-weight: 700;
@@ -114,7 +109,6 @@
   line-height: 28px;
 }
 .tutoOMF__fonctionnement {
-  padding-left: 11.5%;
   display: flex;
   flex-direction: column;
 }
@@ -124,7 +118,7 @@
     flex-direction: row;
     width: 1029px;
     justify-content: space-evenly;
-    padding-left: 0;
+    padding-left: 11.5%;
   }
 }
 .tutoOMF__choisisez, .tutoOMF__composez, .tutoOMF__degustez {
@@ -5836,11 +5830,6 @@ p {
     margin-left: 180px;
   }
 }
-@media screen and (min-width: 1450px) {
-  .restaurants__title {
-    margin-left: 35.5%;
-  }
-}
 .restaurants__List {
   margin-left: 17px;
   margin-right: 17px;
@@ -5861,11 +5850,6 @@ p {
 @media screen and (min-width: 1200px) {
   .restaurants__List {
     margin-left: 180px;
-  }
-}
-@media screen and (min-width: 1450px) {
-  .restaurants__List {
-    margin-left: 35.5%;
   }
 }
 .restaurants__item {
