@@ -217,11 +217,7 @@
       @media screen and (min-width:1024px) {
         margin-left: 10%;
       }
-      @media screen and (min-width:1400px) {
-        margin-left: 0;
-        display: flex;
-        justify-content: space-evenly;
-      }
+
   }
   $menu-bborder-delay: 0.2s;
   @keyframes menu-bborder-appear {
@@ -338,5 +334,13 @@ $menu-item-delay: 0.2s; // temps entre chaque menu__item a revoir
           animation-delay: $i * $menu-item-delay;
       }
   }
+}
+@media screen and (min-width:1400px) {
+  #bborder{
+    margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
 }
 

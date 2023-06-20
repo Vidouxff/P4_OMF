@@ -6422,13 +6422,6 @@ p {
     margin-left: 10%;
   }
 }
-@media screen and (min-width: 1400px) {
-  .menu #bborder {
-    margin-left: 0;
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
 @keyframes menu-bborder-appear {
   0% {
     opacity: 0;
@@ -6585,6 +6578,13 @@ p {
   animation-delay: 2s;
 }
 
+@media screen and (min-width: 1400px) {
+  #bborder {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 .headerFlex {
   display: flex;
   flex-direction: row;
