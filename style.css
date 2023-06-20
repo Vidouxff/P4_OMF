@@ -171,11 +171,18 @@
 }
 
 /* WIDTH min ET WIDTH MAX */
-/* $shrikhand-font: 'Shrikhand', cursive; */
-/* $font-family: "Roboto", sans-serif; */
-/* $color-stack: 'black'; */
 /* COULEURS TEXTES  */
+/* $text-color: black;
+$text-color-secondary: rgba(53, 53, 53, 1);
+$text-color-third: rgba(246, 246, 246, 1); */
 /* Vous utiliserez ce dossier pour les éléments réutilisables et plus petits que les layouts comme les boutons, les inputs, les icônes… */
+/* $header-background-color: #f6f6f6;
+$text-color-secondary: #666666;
+$primary-color: #ffffff;
+$secondary-color: #f9eff3;
+$tertiary-color: #ffa200;
+$light-weight: 300;
+$medium-weight: 500; */
 .localisation__ctner {
   display: flex;
   flex-direction: row;
@@ -5750,7 +5757,7 @@
   encore un fichier pour la typo. de notre application web avec les fonts utilisées. */
 /* BODY */
 body {
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 .localisation__iconCtner {

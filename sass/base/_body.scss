@@ -2,8 +2,8 @@
   du style du texte. On peut y trouver un fichier _normalize.scss pour le style par défaut des éléments HTML ou
   encore un fichier pour la typo. de notre application web avec les fonts utilisées. */
   
-
+  $roboto-font: 'Roboto', sans-serif;
 /* BODY */
 body {
-  font-family: roboto;
+  font-family: $roboto-font;
 }
