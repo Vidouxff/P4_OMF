@@ -5826,17 +5826,17 @@ p {
     padding-bottom: 28px;
   }
 }
-@media screen and (min-width: 1150) {
-  .restaurants__titleCtner {
-    margin-left: -513px;
-  }
-}
 .restaurants__title {
   margin-left: 20px;
 }
 @media screen and (min-width: 1024px) {
   .restaurants__title {
     margin-left: 30px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .restaurants__title {
+    margin-left: -513px;
   }
 }
 .restaurants__List {
