@@ -6215,22 +6215,11 @@ p {
   justify-content: center;
   width: 100%;
 }
-@media screen and (min-width: 1440px) {
-  .headerp__logoContainer {
-    justify-content: flex-start;
-    padding-left: calc((100% - 1440px) / 2);
-  }
-}
 .headerp__logoContainer .headerp__logo {
   margin: 0 auto;
 }
 .headerp__arrowCtner {
   margin-left: 23px;
-}
-@media screen and (min-width: 1440px) {
-  .headerp__arrowCtner {
-    margin-right: calc((100% - 1440px) / 2 + 578.8px);
-  }
 }
 .headerp__lien1 {
   text-decoration: none;
@@ -6389,7 +6378,7 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .menu__category {
-    margin-left: 10%;
+    margin-left: -571px;
   }
 }
 @keyframes menu-category-appear {
@@ -6441,7 +6430,7 @@ p {
 }
 @media screen and (min-width: 1024px) {
   .menu__bborder {
-    margin-left: 10%;
+    margin-left: -580px;
   }
 }
 @media screen and (min-width: 1400px) {
