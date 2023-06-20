@@ -309,16 +309,16 @@
 
   }
   &__List {
-display: flex;
-flex-wrap: wrap;
-}
-$menu-item-delay: 0.2s; // temps entre chaque menu__item a revoir
+  display: flex;
+  flex-wrap: wrap;
+  }
+    $menu-item-delay: 0.2s; // temps entre chaque menu__item a revoir
   &__item {
   opacity: 0;
   animation: menu-item-appear 0.8s ease-in-out forwards;
   }
 
-  @keyframes menu-item-appear {
+    @keyframes menu-item-appear {
       0% {
           opacity: 0;
           transform: translateY(10px);
@@ -327,13 +327,13 @@ $menu-item-delay: 0.2s; // temps entre chaque menu__item a revoir
           opacity: 1;
           transform: translateY(0);
       }
-  }
+    }
 
-  @for $i from 1 through 10 {
+    @for $i from 1 through 10 {
       .menu__item:nth-child(#{$i}) {
           animation-delay: $i * $menu-item-delay;
       }
-  }
+    }
 }
 @media screen and (min-width:1400px) {
   #bborder{
