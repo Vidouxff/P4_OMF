@@ -6425,9 +6425,14 @@ p {
 }
 .menu__title {
   font-style: normal;
+  font-size: 16px;
   font-weight: 500;
-  font-size: 18px;
   line-height: 21px;
+}
+@media screen and (min-width: 335px) {
+  .menu__title {
+    font-size: 18px;
+  }
 }
 .menu__details {
   font-style: normal;
