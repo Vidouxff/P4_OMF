@@ -118,7 +118,7 @@
     flex-direction: row;
     width: 1029px;
     justify-content: space-evenly;
-    padding-left: 11.5%;
+    padding-left: 0;
   }
 }
 .tutoOMF__choisisez, .tutoOMF__composez, .tutoOMF__degustez {
@@ -5830,12 +5830,23 @@ p {
     margin-left: 180px;
   }
 }
+@media screen and (min-width: 1450px) {
+  .restaurants__title {
+    margin-left: 35.5%;
+  }
+}
 .restaurants__List {
   margin-left: 17px;
   margin-right: 17px;
   padding-bottom: 66px;
   display: flex;
   flex-direction: column;
+  /*     @media screen and (min-width:1200px) {
+        margin-left: 180px;
+      }
+      @media screen and (min-width:1450px) {
+        margin-left: 35.5%;
+    }  */
 }
 @media screen and (min-width: 1024px) {
   .restaurants__List {
@@ -5845,11 +5856,6 @@ p {
     grid-template-columns: repeat(1, 490px);
     row-gap: 50px;
     margin-left: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .restaurants__List {
-    margin-left: 180px;
   }
 }
 .restaurants__item {
