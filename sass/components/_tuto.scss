@@ -5,12 +5,14 @@
   margin-left: 20px;
   padding-bottom: 68px;
   @media screen and (min-width:1150px) {
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   &__titleCtner {
       margin-left: 20px;
       @media screen and (min-width:1150px) {
-/*         margin-left: 12%; */
+        margin-left: -837px;
         padding-top: 30px;
       }
     }
