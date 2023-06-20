@@ -6448,6 +6448,10 @@ p {
   font-weight: 300;
   font-size: 15.0431px;
   line-height: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 .menu__info {
   display: flex;
