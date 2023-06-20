@@ -159,7 +159,7 @@
   }
   &__category,
   &__List,
-  #bborder {
+  &__bborder {
       margin-left: 13px;
       margin-right: 13px;
   }
@@ -206,7 +206,7 @@
         animation-delay: $i * $menu-category-delay;
       }
     }
-  #bborder{
+  &__bborder{
       margin-bottom: 12px;
       width: 40px;
       border-bottom: 3px solid rgb(153, 226, 208);
@@ -215,8 +215,12 @@
       @media screen and (min-width:1024px) {
         margin-left: 10%;
       }
-
-  }
+      @media screen and (min-width:1400px) {
+        margin-left: 0;
+        display: flex;
+        justify-content: space-evenly;
+      }   
+    }
   $menu-bborder-delay: 0.2s;
   @keyframes menu-bborder-appear {
       0% {
@@ -229,7 +233,7 @@
       }
     } 
     @for $i from 1 through 10 {
-      #bborder:nth-child(#{$i}) {
+      &__bborder:nth-child(#{$i}) {
         animation-delay: $i * $menu-bborder-delay;
       }
     }
@@ -332,13 +336,5 @@
           animation-delay: $i * $menu-item-delay;
       }
     }
-}
-@media screen and (min-width:1400px) {
-  #bborder{
-    margin-left: 0;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
 }
 

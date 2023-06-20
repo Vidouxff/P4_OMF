@@ -6342,8 +6342,7 @@ p {
     margin-left: 13%;
   }
 }
-.menu__category, .menu__List,
-.menu #bborder {
+.menu__category, .menu__List, .menu__bborder {
   margin-left: 13px;
   margin-right: 13px;
 }
@@ -6417,7 +6416,7 @@ p {
 .menu .menu__category:nth-child(10) {
   animation-delay: 2s;
 }
-.menu #bborder {
+.menu__bborder {
   margin-bottom: 12px;
   width: 40px;
   border-bottom: 3px solid rgb(153, 226, 208);
@@ -6425,8 +6424,15 @@ p {
   animation: menu-bborder-appear 0.5s ease-in-out forwards;
 }
 @media screen and (min-width: 1024px) {
-  .menu #bborder {
+  .menu__bborder {
     margin-left: 10%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .menu__bborder {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 @keyframes menu-bborder-appear {
@@ -6439,34 +6445,34 @@ p {
     transform: translateY(0);
   }
 }
-.menu #bborder:nth-child(1) {
+.menu__bborder:nth-child(1) {
   animation-delay: 0.2s;
 }
-.menu #bborder:nth-child(2) {
+.menu__bborder:nth-child(2) {
   animation-delay: 0.4s;
 }
-.menu #bborder:nth-child(3) {
+.menu__bborder:nth-child(3) {
   animation-delay: 0.6s;
 }
-.menu #bborder:nth-child(4) {
+.menu__bborder:nth-child(4) {
   animation-delay: 0.8s;
 }
-.menu #bborder:nth-child(5) {
+.menu__bborder:nth-child(5) {
   animation-delay: 1s;
 }
-.menu #bborder:nth-child(6) {
+.menu__bborder:nth-child(6) {
   animation-delay: 1.2s;
 }
-.menu #bborder:nth-child(7) {
+.menu__bborder:nth-child(7) {
   animation-delay: 1.4s;
 }
-.menu #bborder:nth-child(8) {
+.menu__bborder:nth-child(8) {
   animation-delay: 1.6s;
 }
-.menu #bborder:nth-child(9) {
+.menu__bborder:nth-child(9) {
   animation-delay: 1.8s;
 }
-.menu #bborder:nth-child(10) {
+.menu__bborder:nth-child(10) {
   animation-delay: 2s;
 }
 .menu__item {
@@ -6585,13 +6591,6 @@ p {
   animation-delay: 2s;
 }
 
-@media screen and (min-width: 1400px) {
-  #bborder {
-    margin-left: 0;
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
 .headerFlex {
   display: flex;
   flex-direction: row;
