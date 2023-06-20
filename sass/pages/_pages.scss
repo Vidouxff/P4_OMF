@@ -216,9 +216,11 @@
         margin-left: 10%;
       }
       @media screen and (min-width:1400px) {
-        margin-left: 0;
-        display: flex;
-        justify-content: space-evenly;
+        .menu__bborder{
+          margin-left: 0;
+          display: flex;
+          justify-content: space-evenly;
+        }
       }   
     }
   $menu-bborder-delay: 0.2s;
