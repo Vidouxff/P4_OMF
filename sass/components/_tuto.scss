@@ -26,14 +26,12 @@
   &__fonctionnement {
       display: flex;
       flex-direction: column;
+      padding-left: 11.5%;
       @media screen and (min-width:1150px) {
         display: flex;
         flex-direction: row;
         width: 1029px;
         justify-content: space-evenly;
-        padding-left: 11.5%;
-      }
-      @media screen and (min-width:1450px) {
         padding-left: 0;
       }
     }
