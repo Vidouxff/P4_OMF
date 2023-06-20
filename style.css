@@ -5819,20 +5819,16 @@ p {
 }
 .restaurants__title {
   margin-left: 20px;
+  /*     @media screen and (min-width:1200px) {
+        margin-left: 180px;
+      }
+      @media screen and (min-width:1450px) {
+          margin-left: 35.5%;
+      }  */
 }
 @media screen and (min-width: 1024px) {
   .restaurants__title {
     margin-left: 30px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .restaurants__title {
-    margin-left: 180px;
-  }
-}
-@media screen and (min-width: 1450px) {
-  .restaurants__title {
-    margin-left: 35.5%;
   }
 }
 .restaurants__List {
