@@ -5952,7 +5952,7 @@ p {
   opacity: 1;
 }
 .restaurants__fa-heartCtner:hover .far {
-  transform: scale(10%);
+  transform: scale(-1.1);
 }
 
 .footer {
