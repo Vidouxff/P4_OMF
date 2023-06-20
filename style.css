@@ -6495,6 +6495,23 @@ p {
   animation: menu-item-appear 0.8s ease-in-out forwards;
 }
 
+/* Menu */
+.menu__item {
+  opacity: 0;
+  animation: menu-item-appear 0.8s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+@keyframes menu-item-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .menu__category {
   opacity: 0;
   animation: menu-category-appear 0.5s ease-in-out forwards;
