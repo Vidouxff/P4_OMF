@@ -6430,7 +6430,7 @@ p {
 }
 @media screen and (min-width: 1400px) {
   .menu__bborder .menu__bborder {
-    margin-left: 0;
+    margin-left: 48%;
     display: flex;
     justify-content: space-evenly;
   }
