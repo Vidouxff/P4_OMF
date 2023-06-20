@@ -6391,34 +6391,34 @@ p {
     transform: translateY(0);
   }
 }
-.menu .menu__category:nth-child(1) {
+.menu__category:active .menu__category:nth-child(1) {
   animation-delay: 0.2s;
 }
-.menu .menu__category:nth-child(2) {
+.menu__category:active .menu__category:nth-child(2) {
   animation-delay: 0.4s;
 }
-.menu .menu__category:nth-child(3) {
+.menu__category:active .menu__category:nth-child(3) {
   animation-delay: 0.6s;
 }
-.menu .menu__category:nth-child(4) {
+.menu__category:active .menu__category:nth-child(4) {
   animation-delay: 0.8s;
 }
-.menu .menu__category:nth-child(5) {
+.menu__category:active .menu__category:nth-child(5) {
   animation-delay: 1s;
 }
-.menu .menu__category:nth-child(6) {
+.menu__category:active .menu__category:nth-child(6) {
   animation-delay: 1.2s;
 }
-.menu .menu__category:nth-child(7) {
+.menu__category:active .menu__category:nth-child(7) {
   animation-delay: 1.4s;
 }
-.menu .menu__category:nth-child(8) {
+.menu__category:active .menu__category:nth-child(8) {
   animation-delay: 1.6s;
 }
-.menu .menu__category:nth-child(9) {
+.menu__category:active .menu__category:nth-child(9) {
   animation-delay: 1.8s;
 }
-.menu .menu__category:nth-child(10) {
+.menu__category:active .menu__category:nth-child(10) {
   animation-delay: 2s;
 }
 .menu__bborder {
@@ -6427,6 +6427,46 @@ p {
   border-bottom: 3px solid rgb(153, 226, 208);
   opacity: 0;
   animation: menu-bborder-appear 0.5s ease-in-out forwards;
+}
+@keyframes menu-bborder-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu__bborder:active__bborder:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.menu__bborder:active__bborder:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.menu__bborder:active__bborder:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.menu__bborder:active__bborder:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.menu__bborder:active__bborder:nth-child(5) {
+  animation-delay: 1s;
+}
+.menu__bborder:active__bborder:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.menu__bborder:active__bborder:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.menu__bborder:active__bborder:nth-child(8) {
+  animation-delay: 1.6s;
+}
+.menu__bborder:active__bborder:nth-child(9) {
+  animation-delay: 1.8s;
+}
+.menu__bborder:active__bborder:nth-child(10) {
+  animation-delay: 2s;
 }
 @media screen and (min-width: 1024px) {
   .menu__bborder {
@@ -6439,46 +6479,6 @@ p {
     display: flex;
     justify-content: space-evenly;
   }
-}
-@keyframes menu-bborder-appear {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.menu__bborder:nth-child(1) {
-  animation-delay: 0.2s;
-}
-.menu__bborder:nth-child(2) {
-  animation-delay: 0.4s;
-}
-.menu__bborder:nth-child(3) {
-  animation-delay: 0.6s;
-}
-.menu__bborder:nth-child(4) {
-  animation-delay: 0.8s;
-}
-.menu__bborder:nth-child(5) {
-  animation-delay: 1s;
-}
-.menu__bborder:nth-child(6) {
-  animation-delay: 1.2s;
-}
-.menu__bborder:nth-child(7) {
-  animation-delay: 1.4s;
-}
-.menu__bborder:nth-child(8) {
-  animation-delay: 1.6s;
-}
-.menu__bborder:nth-child(9) {
-  animation-delay: 1.8s;
-}
-.menu__bborder:nth-child(10) {
-  animation-delay: 2s;
 }
 .menu__item {
   background-color: #ffffff;
@@ -6565,34 +6565,34 @@ p {
     transform: translateY(0);
   }
 }
-.menu .menu__item:nth-child(1) {
+.menu__item:active .menu__item:nth-child(1) {
   animation-delay: 0.2s;
 }
-.menu .menu__item:nth-child(2) {
+.menu__item:active .menu__item:nth-child(2) {
   animation-delay: 0.4s;
 }
-.menu .menu__item:nth-child(3) {
+.menu__item:active .menu__item:nth-child(3) {
   animation-delay: 0.6s;
 }
-.menu .menu__item:nth-child(4) {
+.menu__item:active .menu__item:nth-child(4) {
   animation-delay: 0.8s;
 }
-.menu .menu__item:nth-child(5) {
+.menu__item:active .menu__item:nth-child(5) {
   animation-delay: 1s;
 }
-.menu .menu__item:nth-child(6) {
+.menu__item:active .menu__item:nth-child(6) {
   animation-delay: 1.2s;
 }
-.menu .menu__item:nth-child(7) {
+.menu__item:active .menu__item:nth-child(7) {
   animation-delay: 1.4s;
 }
-.menu .menu__item:nth-child(8) {
+.menu__item:active .menu__item:nth-child(8) {
   animation-delay: 1.6s;
 }
-.menu .menu__item:nth-child(9) {
+.menu__item:active .menu__item:nth-child(9) {
   animation-delay: 1.8s;
 }
-.menu .menu__item:nth-child(10) {
+.menu__item:active .menu__item:nth-child(10) {
   animation-delay: 2s;
 }
 

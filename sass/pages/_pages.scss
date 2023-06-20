@@ -184,30 +184,53 @@
       @media screen and (min-width:1024px) {
         margin-left: -571px;
       }
+      &:active{
+        $menu-category-delay: 0.2s;
+        @keyframes menu-category-appear {
+            0% {
+              opacity: 0;
+              transform: translateY(10px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          
+          @for $i from 1 through 10 {
+            .menu__category:nth-child(#{$i}) {
+              animation-delay: $i * $menu-category-delay;
+            }
+          }
+      }
   }
-  $menu-category-delay: 0.2s;
-  @keyframes menu-category-appear {
-      0% {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-    
-    @for $i from 1 through 10 {
-      .menu__category:nth-child(#{$i}) {
-        animation-delay: $i * $menu-category-delay;
-      }
-    }
+
   &__bborder{
       margin-bottom: 12px;
       width: 40px;
       border-bottom: 3px solid rgb(153, 226, 208);
       opacity: 0;
       animation: menu-bborder-appear 0.5s ease-in-out forwards;
+
+      &:active{
+        $menu-bborder-delay: 0.2s;
+        @keyframes menu-bborder-appear {
+            0% {
+              opacity: 0;
+              transform: translateY(10px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          } 
+          @for $i from 1 through 10 {
+            &__bborder:nth-child(#{$i}) {
+              animation-delay: $i * $menu-bborder-delay;
+            }
+          }
+      }
+
       @media screen and (min-width:1024px) {
         margin-left: -580px;
       }
@@ -219,22 +242,7 @@
         }
       }   
     }
-  $menu-bborder-delay: 0.2s;
-  @keyframes menu-bborder-appear {
-      0% {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    } 
-    @for $i from 1 through 10 {
-      &__bborder:nth-child(#{$i}) {
-        animation-delay: $i * $menu-bborder-delay;
-      }
-    }
+
   &__item{
       background-color: #ffffff;
       height: 69px;
@@ -312,27 +320,31 @@
   display: flex;
   flex-wrap: wrap;
   }
-    $menu-item-delay: 0.2s; // temps entre chaque menu__item a revoir
+  $menu-item-delay: 0.2s; // temps entre chaque menu__item a revoir
   &__item {
-  opacity: 0;
-  animation: menu-item-appear 0.8s ease-in-out forwards;
+    opacity: 0;
+    animation: menu-item-appear 0.8s ease-in-out forwards;
+
+    &:active{
+      @keyframes menu-item-appear {
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+      }
+  
+      @for $i from 1 through 10 {
+        .menu__item:nth-child(#{$i}) {
+            animation-delay: $i * $menu-item-delay;
+        }
+      }
+    }
   }
 
-    @keyframes menu-item-appear {
-      0% {
-          opacity: 0;
-          transform: translateY(10px);
-      }
-      100% {
-          opacity: 1;
-          transform: translateY(0);
-      }
-    }
 
-    @for $i from 1 through 10 {
-      .menu__item:nth-child(#{$i}) {
-          animation-delay: $i * $menu-item-delay;
-      }
-    }
 }
 
