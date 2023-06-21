@@ -240,7 +240,7 @@
       @media screen and (min-width:1024px) {
         width: 634px;
       }
-        &:hover {
+      &:hover {
             .menu__selection {
               margin-right: 0;
             }
@@ -313,7 +313,7 @@
   }
 
 
-    $menu-item-delay: 0.2s; // temps entre chaque menu__item
+    $menu-item-delay: 0.6s; // temps entre chaque menu__item
     
     &__List {
   display: flex;
@@ -322,7 +322,7 @@
 
     &__item {
     opacity: 0;
-    animation: menu-item-appear 0.5s ease-in-out forwards;
+    animation: menu-item-appear 0.8s ease-in-out forwards;
     }
 
     @keyframes menu-item-appear {
