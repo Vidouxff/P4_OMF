@@ -6334,7 +6334,7 @@ p {
 
 /* Menu */
 .menu {
-  margin-top: 4.2em;
+  margin-top: 42px;
   width: 100%;
   background: #F7F7F7;
 }
@@ -6350,13 +6350,6 @@ p {
 .menu__category, .menu__List, .menu__bborder {
   margin-left: 13px;
   margin-right: 13px;
-}
-@media screen and (min-width: 1400px) {
-  .menu .menu__category {
-    margin-left: -559px;
-    display: flex;
-    justify-content: space-evenly;
-  }
 }
 .menu__List {
   display: flex;
@@ -6381,6 +6374,46 @@ p {
     margin-left: -571px;
   }
 }
+@keyframes menu-category-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu .menu__category:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.menu .menu__category:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.menu .menu__category:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.menu .menu__category:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.menu .menu__category:nth-child(5) {
+  animation-delay: 1s;
+}
+.menu .menu__category:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.menu .menu__category:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.menu .menu__category:nth-child(8) {
+  animation-delay: 1.6s;
+}
+.menu .menu__category:nth-child(9) {
+  animation-delay: 1.8s;
+}
+.menu .menu__category:nth-child(10) {
+  animation-delay: 2s;
+}
 .menu__bborder {
   margin-bottom: 12px;
   width: 40px;
@@ -6394,11 +6427,51 @@ p {
   }
 }
 @media screen and (min-width: 1400px) {
-  .menu__bborder .menu__bborder {
+  .menu__bborder {
     margin-left: -581px;
     display: flex;
     justify-content: space-evenly;
   }
+}
+@keyframes menu-bborder-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.menu .menu__bborder:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.menu .menu__bborder:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.menu .menu__bborder:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.menu .menu__bborder:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.menu .menu__bborder:nth-child(5) {
+  animation-delay: 1s;
+}
+.menu .menu__bborder:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.menu .menu__bborder:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.menu .menu__bborder:nth-child(8) {
+  animation-delay: 1.6s;
+}
+.menu .menu__bborder:nth-child(9) {
+  animation-delay: 1.8s;
+}
+.menu .menu__bborder:nth-child(10) {
+  animation-delay: 2s;
 }
 .menu__item {
   background-color: #ffffff;
@@ -6470,7 +6543,6 @@ p {
   margin-right: 15px;
 }
 .menu__selection {
-  /*       width: $selectorwidth; */
   width: 60px;
   background-color: #99E2D0;
   border-radius: 0px 15.04px 15.04px 0px;
@@ -6492,46 +6564,8 @@ p {
 }
 .menu__item {
   opacity: 0;
-  animation: menu-item-appear 0.8s ease-in-out forwards;
+  animation: menu-item-appear 0.5s ease-in-out forwards;
 }
-
-/* Menu */
-.menu__item {
-  opacity: 0;
-  animation: menu-item-appear 0.8s ease-in-out forwards;
-  animation-delay: 0.2s;
-}
-@keyframes menu-item-appear {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.menu__category {
-  opacity: 0;
-  animation: menu-category-appear 0.5s ease-in-out forwards;
-}
-
-@keyframes menu-category-appear {
-  0% {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.menu__item {
-  opacity: 0;
-  animation: menu-item-appear 0.8s ease-in-out forwards;
-}
-
 @keyframes menu-item-appear {
   0% {
     opacity: 0;
@@ -6542,19 +6576,35 @@ p {
     transform: translateY(0);
   }
 }
-.menu__category:nth-child(1),
-.menu__item:nth-child(n+4) {
+.menu .menu__item:nth-child(1) {
   animation-delay: 0.2s;
 }
-
-.menu__category:nth-child(2),
-.menu__item:nth-child(n+7) {
+.menu .menu__item:nth-child(2) {
   animation-delay: 0.4s;
 }
-
-.menu__category:nth-child(3),
-.menu__item:nth-child(n+10) {
+.menu .menu__item:nth-child(3) {
   animation-delay: 0.6s;
+}
+.menu .menu__item:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.menu .menu__item:nth-child(5) {
+  animation-delay: 1s;
+}
+.menu .menu__item:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.menu .menu__item:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.menu .menu__item:nth-child(8) {
+  animation-delay: 1.6s;
+}
+.menu .menu__item:nth-child(9) {
+  animation-delay: 1.8s;
+}
+.menu .menu__item:nth-child(10) {
+  animation-delay: 2s;
 }
 
 .headerFlex {
