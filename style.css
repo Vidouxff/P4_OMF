@@ -5914,24 +5914,24 @@ p {
   top: -150px;
   left: 41px;
 }
+.restaurants__cardDetails {
+  display: flex;
+  margin-left: 18.74px;
+  justify-content: space-between;
+}
+.restaurants__dtls {
+  margin-top: 16px;
+}
 .restaurants__img {
   width: 100%;
   height: 174px;
   border-radius: 15px 15px 0px 0px;
   object-fit: cover;
-  /*     @media screen and (min-width:1024px) {
-        height: 383px;
-      } */
-}
-.restaurants__cardDetails {
-  display: flex;
-  justify-content: space-evenly;
 }
 .restaurants__cardTitle {
   margin-bottom: 5px;
   font-style: normal;
   font-weight: 700;
-  /*     font-size: 18px; */
   line-height: 21px;
 }
 .restaurants__cardText {
